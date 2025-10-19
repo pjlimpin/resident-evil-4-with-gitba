@@ -116,8 +116,7 @@ a {
 }
 video {
   position: absolute;
-  top: 20%;
-  right: 20%;
+  height: ;
   opacity: 0.9;
 }
 hr {
@@ -128,21 +127,28 @@ hr {
   margin: 0 auto; /* Center the line and add space around it */
 }
 .video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
-  height: 0;
+  flex: 1;
+  max-width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .video-container video {
   width: 100%;
-  max-width: 800px; /* adjust to your preferred maximum size */
+  max-width: 600px; /* Control the video size here */
   height: auto;
   display: block;
-  margin: 0 auto; /* centers the video horizontally */
 }
 .web-content {
+  border: 2px solid red;
   display: flex;
-  gap: 30px; /* space between nav and video */
+  gap: 30px;
   padding: 20px;
-  align-items: flex-start; /* aligns both to the top */
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
 }
