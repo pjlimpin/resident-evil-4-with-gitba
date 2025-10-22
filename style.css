@@ -108,10 +108,7 @@ body {
   padding: 20px;
   display: grid;
 }
-img{
-  height: 300px;
-  width: 200px;
-}
+
 footer {
   background-color: #050505;
   color: white;
@@ -122,4 +119,28 @@ footer {
 h1 {
   color: white;
   font-size: 100px;
+}
+
+/* This is for characters page style */
+.characters{
+  border: 2px solid red;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+img{
+  height: 300px;
+  width:  250px;
+}
+.chars-card a{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+.chars-card{
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: 2px solid black;
 }
