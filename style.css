@@ -47,7 +47,7 @@ body {
   color: white;
   text-decoration: none;
 }
-.top-navigator a:hover{
+.top-navigator a:hover {
   color: red;
   font-weight: bolder;
 }
@@ -73,14 +73,14 @@ body {
   color: white;
   text-decoration: none;
 }
-.side-navigator a:hover{
+.side-navigator a:hover {
   color: red;
   font-weight: bolder;
 }
 .sidenav1 {
   margin-left: 20px;
 }
-.sidenav1 img{
+.sidenav1 img {
   height: 200px;
   width: 200px;
 }
@@ -122,35 +122,54 @@ h1 {
 }
 
 /* This is for characters page style */
-.characters{
+.characters {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
 }
-img{
+img {
   height: 300px;
-  width:  250px;
+  width: 250px;
 }
-.chars-card a{
+.chars-card a {
   font-size: 30px;
   text-decoration: none;
   color: white;
 }
-.chars-card{
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    border: 2px solid black;
+.chars-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 /* This is for Contact Us */
-.login{
-  border: 2px solid red;
+.login {
+  border-radius: 15px;
   background-color: rgb(65, 63, 63);
   height: 500px;
   width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  color: white;
+  opacity: 0.9;
+}
+
+.login input,
+label,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.btn button {
+  padding: 5px;
+  border-radius: 5px;
 }
